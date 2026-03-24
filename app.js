@@ -7,6 +7,9 @@ const resultado = document.getElementById("resultado");
 function mayorDe10 (){
     if (contador >= 10){
         resultado.style.color="red";
+ }
+    else {
+        resultado.style.color="";
     }
 };
 
@@ -20,6 +23,6 @@ botonRestar.addEventListener("click", function(){
     if (contador >0){
         contador--;
         resultado.textContent=contador;
-        mayorDe10;
+        mayorDe10();
     }
 });
