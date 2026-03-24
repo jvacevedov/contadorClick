@@ -2,7 +2,7 @@ console.log("Aqui estoy");
 let contador =0;
 const botonSumar= document.getElementById("btnSumar");
 const botonRestar= document.getElementById("btnRestar");
-const resultado = document.getElementById("resultado");
+const resultado = document.getElementById("subMensajeResultado");
 
 function mayorDe10 (){
     if (contador >= 10){
